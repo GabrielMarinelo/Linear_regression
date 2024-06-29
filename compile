@@ -1,0 +1,4 @@
+#! /bin/bash
+g++ -O3 -march=native -I/home/gabriel/pythia8310/include $1.cpp -o $1 -lpythia8 -L/home/gabriel/pythia8310/lib $(root-config --cflags --libs)
+
+
